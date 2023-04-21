@@ -89,6 +89,11 @@ public class Array<T> : IArray<T>
         throw new NotImplementedException();
     }
 
+    /// <summary>
+    /// Gets the value of the element at the given index.
+    /// </summary>
+    /// <param name="index">Index of the targeted element in the array.</param>
+    /// <returns>Value of the element in the array at the given index.</returns>
     public T GetValue(int index)
     {
         ValidateIndex(index);
