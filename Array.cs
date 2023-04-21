@@ -41,9 +41,15 @@ public class Array<T> : IArray<T>
 
         for (int i = 0; i < this.Length; i++)
         {
+            if (i == 0)
+            {
+                result += "[" + this[i] + ", ";
+                continue;
+            }
+
             if (i == (this.Length - 1))
             {
-                result += this[i] + ".";
+                result += this[i] + "]";
                 break;
             }
 
