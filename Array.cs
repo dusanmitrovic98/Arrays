@@ -11,5 +11,4 @@ public class Array<T>
     {
         get { return _elements.Length; }
     }
-
 }
