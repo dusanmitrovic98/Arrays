@@ -84,7 +84,7 @@ public class Array<T> : IArray<T>
     /// <param name="index">Index at which value will be set.</param>
     public void SetValue(T value, int index)
     {
-        ValidateIndex(index);
+        this.ValidateIndex(index);
 
         throw new NotImplementedException();
     }
@@ -96,7 +96,7 @@ public class Array<T> : IArray<T>
     /// <returns>Value of the element in the array at the given index.</returns>
     public T GetValue(int index)
     {
-        ValidateIndex(index);
+        this.ValidateIndex(index);
 
         throw new NotImplementedException();
     }
@@ -105,7 +105,7 @@ public class Array<T> : IArray<T>
     /// Validates if the given index is in the range of the valid array indexes.
     /// </summary>
     /// <param name="index">Targeted index value that will be validated.</param>
-    private void ValidateIndex(int index)
+    public void ValidateIndex(int index)
     {
         if (index >= 0 && index < this.Length)
         {
