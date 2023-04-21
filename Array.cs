@@ -114,4 +114,15 @@ public class Array<T> : IArray<T>
 
         throw new ArgumentOutOfRangeException("index");
     }
+
+    public void CopyTo(Array<T> array, int index)
+    {
+        ValidateIndex(index);
+        var length = this.Length - index;
+        var result = new Array<T>(length);
+        for (int i = index; i < this.Length; i++)
+        {
+            result[i] = this[i];
+        }
+    }
 }
