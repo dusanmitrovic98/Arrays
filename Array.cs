@@ -81,7 +81,7 @@ public class Array<T> : IArray<T>
     {
         ValidateIndex(index);
 
-
+        throw new NotImplementedException();
     }
 
     public T GetValue(int index)
