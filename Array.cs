@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Collections.Array;
 
-public class Array
+public class Array<T>
 {
-
+    private T[] _elements;
 }
