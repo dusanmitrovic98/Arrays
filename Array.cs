@@ -44,6 +44,7 @@ public class Array<T> : IArray<T>
             if (i == (this.Length - 1))
             {
                 result += this[i] + ".";
+                break;
             }
 
             result += this[i] + ", ";
