@@ -1,0 +1,12 @@
+C:\Users\BK2O198\Documents\Workstation\Arrays\bin\Debug\net7.0\Arrays.deps.json
+C:\Users\BK2O198\Documents\Workstation\Arrays\bin\Debug\net7.0\Arrays.dll
+C:\Users\BK2O198\Documents\Workstation\Arrays\bin\Debug\net7.0\Arrays.pdb
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.csproj.AssemblyReference.cache
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.AssemblyInfo.cs
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.dll
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\refint\Arrays.dll
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\Arrays.pdb
+C:\Users\BK2O198\Documents\Workstation\Arrays\obj\Debug\net7.0\ref\Arrays.dll
