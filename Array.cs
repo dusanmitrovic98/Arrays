@@ -16,5 +16,9 @@ public class Array<T> : IArray<T>
         get { return _elements.Length; }
     }
 
-    public T this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    public T this[int index]
+    {
+        get { return _elements[index]; }
+        set { this._elements[index] = value; }
+    }
 }
