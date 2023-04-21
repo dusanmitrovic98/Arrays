@@ -77,6 +77,11 @@ public class Array<T> : IArray<T>
         return false;
     }
 
+    /// <summary>
+    /// Sets the value at the specified index.
+    /// </summary>
+    /// <param name="value">Value to be set at the specified index.</param>
+    /// <param name="index">Index at which value will be set.</param>
     public void SetValue(T value, int index)
     {
         ValidateIndex(index);
