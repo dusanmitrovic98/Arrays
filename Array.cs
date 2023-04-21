@@ -16,6 +16,10 @@ public class Array<T> : IArray<T>
         get { return _elements.Length; }
     }
 
+    /// <summary>
+    /// Gets or sets the value at the specific index.
+    /// </summary>
+    /// <value>Array element at the given index.</value>
     public T this[int index]
     {
         get { return _elements[index]; }
