@@ -79,11 +79,29 @@ public class Array<T> : IArray<T>
 
     public void SetValue(T value, int index)
     {
-        throw new NotImplementedException();
+        ValidateIndex(index);
+
+
     }
 
     public T GetValue(int index)
     {
+        ValidateIndex(index);
+
         throw new NotImplementedException();
+    }
+
+    /// <summary>
+    /// Validates if the given index is in the range of the valid array indexes.
+    /// </summary>
+    /// <param name="index">Targeted index value that will be validated.</param>
+    private void ValidateIndex(int index)
+    {
+        if (index >= 0 && index < this.Length)
+        {
+            return;
+        }
+
+        throw new ArgumentOutOfRangeException("index");
     }
 }
