@@ -48,4 +48,14 @@ public class Array<T> : IArray<T>
 
         return false;
     }
+
+    public void SetValue(T value, int index)
+    {
+        throw new NotImplementedException();
+    }
+
+    public T GetValue(int index)
+    {
+        throw new NotImplementedException();
+    }
 }
