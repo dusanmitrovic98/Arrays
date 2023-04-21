@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Collections.Array;
 
-public class Array<T>
+public class Array<T> : IArray<T>
 {
     /// <summary>
     /// Array elements, where T represents predefined type for each element in the array.
@@ -15,4 +15,6 @@ public class Array<T>
     {
         get { return _elements.Length; }
     }
+
+    public T this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 }
