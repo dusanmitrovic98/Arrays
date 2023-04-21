@@ -117,7 +117,7 @@ public class Array<T> : IArray<T>
 
     public void CopyTo(Array<T> array, int index)
     {
-        ValidateIndex(index);
+        // ValidateIndex(index);
         var length = this.Length - index;
         array = new Array<T>(length);
         for (int i = index; i < this.Length; i++)
