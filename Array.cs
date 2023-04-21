@@ -32,13 +32,34 @@ public class Array<T> : IArray<T>
     }
 
     /// <summary>
+    /// Transforms array to the corresponding string form.
+    /// </summary>
+    /// <returns>String form of the array.</returns>
+    public override string ToString()
+    {
+        var result = "";
+
+        for (int i = 0; i < this.Length; i++)
+        {
+            if (i == (this.Length - 1))
+            {
+                result += this[i] + ".";
+            }
+
+            result += this[i] + ", ";
+        }
+
+        return result;
+    }
+
+    /// <summary>
     /// Determines whether the array contains a specific value.
     /// </summary>
     /// <param name="value">Targeted value.</param>
     /// <returns>True if array contains the given value, otherwise false.</returns>
     public bool Contains(T value)
     {
-        for (int i = 0; i < Length; i++)
+        for (int i = 0; i < this.Length; i++)
         {
             if ((this[i]?.Equals(value) ?? false) == true)
             {
