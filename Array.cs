@@ -2,5 +2,8 @@
 
 public class Array<T>
 {
+    /// <summary>
+    /// Array elements.
+    /// </summary>
     private T[] _elements;
 }
