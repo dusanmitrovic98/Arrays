@@ -27,10 +27,10 @@ public class Array<T> : IArray<T>
     }
 
     /// <summary>
-    /// 
+    /// Determines whether the array contains a specific value.
     /// </summary>
-    /// <param name="value"></param>
-    /// <returns></returns>
+    /// <param name="value">Targeted value.</param>
+    /// <returns>True if array contains the given value, otherwise false.</returns>
     public bool Contains(T value)
     {
         for (int i = 0; i < Length; i++)
