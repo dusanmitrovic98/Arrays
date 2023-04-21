@@ -7,6 +7,10 @@ public class Array<T>
     /// </summary>
     private T[] _elements;
 
+    /// <summary>
+    /// Gets the total number of elements in the array.
+    /// </summary>
+    /// <value></value>
     public int Length
     {
         get { return _elements.Length; }
