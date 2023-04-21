@@ -26,8 +26,21 @@ public class Array<T> : IArray<T>
         set { this._elements[index] = value; }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns></returns>
     public bool Contains(T value)
     {
-        throw new NotImplementedException();
+        for (int i = 0; i < Length; i++)
+        {
+            if ((this[i]?.Equals(value) ?? false) == true)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
