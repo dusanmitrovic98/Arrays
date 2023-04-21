@@ -25,4 +25,9 @@ public class Array<T> : IArray<T>
         get { return _elements[index]; }
         set { this._elements[index] = value; }
     }
+
+    public bool Contains(T value)
+    {
+        throw new NotImplementedException();
+    }
 }
