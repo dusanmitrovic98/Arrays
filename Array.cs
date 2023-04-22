@@ -128,6 +128,14 @@ public class Array<T> : IArray<T>
 
     public Array<T> Copy(int index = 0)
     {
-        throw new NotImplementedException();
+        var length = this.Length - index;
+        var array = new Array<T>(length);
+
+        for (int i = index; i < this.Length; i++)
+        {
+            array[i] = this[i];
+        }
+
+        return array;
     }
 }
