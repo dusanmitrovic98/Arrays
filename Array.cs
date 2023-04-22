@@ -154,6 +154,11 @@ public class Array<T> : IArray<T>
         return array;
     }
 
+    /// <summary>
+    /// Searches for the specified value and returns the index of the first occurrence within the entire array.
+    /// </summary>
+    /// <param name="value">Targeted value.</param>
+    /// <returns>Index of the first occurrence within the entire array.</returns>
     public int IndexOf(T value)
     {
         throw new NotImplementedException();
