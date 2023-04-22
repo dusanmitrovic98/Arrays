@@ -117,7 +117,8 @@ public class Array<T> : IArray<T>
 
     /// <summary>
     /// This function will copy current array to new array given as the parameter passed by reference.
-    /// Elements will be copied starting from the given index.
+    /// Elements will be copied starting from the given index. Default index value is 0, in that case 
+    /// whole array is copied. If index out of bounds ArgumentOutOfRangeException exception is thrown.
     /// </summary>
     /// <param name="array"></param>
     /// <param name="index"></param>
