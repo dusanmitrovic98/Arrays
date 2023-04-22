@@ -86,7 +86,7 @@ public class Array<T> : IArray<T>
     {
         this.ValidateIndex(index);
 
-        throw new NotImplementedException();
+        throw new NotImplementedException(); // todo implement
     }
 
     /// <summary>
@@ -98,7 +98,7 @@ public class Array<T> : IArray<T>
     {
         this.ValidateIndex(index);
 
-        throw new NotImplementedException();
+        throw new NotImplementedException(); // todo implement
     }
 
     /// <summary>
@@ -161,6 +161,13 @@ public class Array<T> : IArray<T>
     /// <returns>Index of the first occurrence within the entire array.</returns>
     public int IndexOf(T value)
     {
-        throw new NotImplementedException();
-    }
+        int result = 0;
+        while (result < this.Length)
+        // {
+        //     if ((this[result].Equals(value) ?? false))
+        //     {
+
+            //     }
+        }
+}
 }
