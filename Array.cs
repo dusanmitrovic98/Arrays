@@ -153,4 +153,9 @@ public class Array<T> : IArray<T>
 
         return array;
     }
+
+    public int IndexOf(T value)
+    {
+        throw new NotImplementedException();
+    }
 }
