@@ -132,8 +132,6 @@ public class Array<T> : IArray<T>
         var length = this.Length - index;
         var array = new Array<T>(length);
 
-        Console.WriteLine(index);
-
         for (int i = 0, j = index; j < this.Length; i++, j++)
         {
             array[i] = this[j];
