@@ -133,10 +133,9 @@ public class Array<T> : IArray<T>
 
         Console.WriteLine(index);
 
-        for (int i = index; i < this.Length; i++)
+        for (int i = 0, j = index; j < this.Length; i++, j++)
         {
-            Console.WriteLine(i);
-            array[i] = this[i];
+            array[i] = this[j];
         }
 
         return array;
