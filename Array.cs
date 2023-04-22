@@ -115,6 +115,12 @@ public class Array<T> : IArray<T>
         throw new ArgumentOutOfRangeException("index");
     }
 
+    /// <summary>
+    /// This function will copy current array to new array given as the parameter passed by reference.
+    /// Elements will be copied starting from the given index.
+    /// </summary>
+    /// <param name="array"></param>
+    /// <param name="index"></param>
     public void CopyTo(ref Array<T> array, int index = 0)
     {
         ValidateIndex(index);
