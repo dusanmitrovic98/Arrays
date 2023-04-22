@@ -129,6 +129,7 @@ public class Array<T> : IArray<T>
 
     public Array<T> Copy(int index = 0)
     {
+        ValidateIndex(index);
         var length = this.Length - index;
         var array = new Array<T>(length);
 
