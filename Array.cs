@@ -134,6 +134,12 @@ public class Array<T> : IArray<T>
         }
     }
 
+    /// <summary>
+    /// Copies array elements from the given index and returns new array with corresponding elements that
+    /// meet criteria of the given index.
+    /// </summary>
+    /// <param name="index">Start index.</param>
+    /// <returns>Array copy with elements determined by the start index.</returns>
     public Array<T> Copy(int index = 0)
     {
         ValidateIndex(index);
