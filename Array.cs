@@ -120,9 +120,9 @@ public class Array<T> : IArray<T>
         ValidateIndex(index);
         var length = this.Length - index;
         array = new Array<T>(length);
-        for (int i = index; i < this.Length; i++)
+        for (int i = 0, j = index; j < this.Length; i++, j++)
         {
-            array[i] = this[i];
+            array[i] = this[j];
         }
     }
 
