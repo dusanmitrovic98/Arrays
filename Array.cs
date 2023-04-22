@@ -125,4 +125,9 @@ public class Array<T> : IArray<T>
             array[i] = this[i];
         }
     }
+
+    public Array<T> Copy(int index = 0)
+    {
+        throw new NotImplementedException();
+    }
 }
