@@ -120,8 +120,8 @@ public class Array<T> : IArray<T>
     /// Elements will be copied starting from the given index. Default index value is 0, in that case 
     /// whole array is copied. If index out of bounds ArgumentOutOfRangeException exception is thrown.
     /// </summary>
-    /// <param name="array"></param>
-    /// <param name="index"></param>
+    /// <param name="array">Array to which values will be copied to.</param>
+    /// <param name="index">Start index.</param>
     public void CopyTo(ref Array<T> array, int index = 0)
     {
         ValidateIndex(index);
