@@ -163,10 +163,13 @@ public class Array<T> : IArray<T>
     {
         int result = 0;
         while (result < this.Length)
-        // {
-        //     if ((this[result].Equals(value) ?? false))
-        //     {
-
-            //     }
+        {
+            if ((this[result]?.Equals(value) ?? false) == true)
+            {
+                return result;
+            }
         }
+
+        return -1;
+    }
 }
