@@ -180,5 +180,6 @@ public class Array<T> : IArray<T>
     public void Add(T value)
     {
         int length = this.Length;
+        int index = 0;
     }
 }
