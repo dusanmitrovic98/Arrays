@@ -205,6 +205,6 @@ public class Array<T> : IArray<T>
 
     public IEnumerator GetEnumerator()
     {
-        throw new NotImplementedException();
+        return _elements.GetEnumerator();
     }
 }
