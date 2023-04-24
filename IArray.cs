@@ -12,4 +12,5 @@ public interface IArray<T>
     public Array<T> Copy(int index = default);
     public int IndexOf(T value);
     public void Add(T value);
+    public void Clear();
 }
