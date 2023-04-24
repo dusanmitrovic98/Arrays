@@ -194,6 +194,7 @@ public class Array<T> : IArray<T>
 
     public void Clear()
     {
-        throw new NotImplementedException();
+        int length = this.Length;
+        this._elements = new T[length];
     }
 }
