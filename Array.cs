@@ -179,6 +179,6 @@ public class Array<T> : IArray<T>
     /// <param name="value">Element to be added.</param>
     public void Add(T value)
     {
-        throw new NotImplementedException();
+        int index = this.Length;
     }
 }
