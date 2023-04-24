@@ -211,4 +211,9 @@ public class Array<T> : IArray<T>
     {
         return _elements.GetEnumerator();
     }
+
+    public void Reverse()
+    {
+        throw new NotImplementedException();
+    }
 }
