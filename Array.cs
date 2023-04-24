@@ -203,6 +203,10 @@ public class Array<T> : IArray<T>
         this._elements = new T[length];
     }
 
+    /// <summary>
+    /// Returns an enumerator that iterates through the array.
+    /// </summary>
+    /// <returns>An enumerator that iterates through the array.</returns>
     public IEnumerator GetEnumerator()
     {
         return _elements.GetEnumerator();
