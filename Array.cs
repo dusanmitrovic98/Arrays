@@ -172,4 +172,9 @@ public class Array<T> : IArray<T>
 
         return -1;
     }
+
+    public void Add(T value)
+    {
+        throw new NotImplementedException();
+    }
 }
