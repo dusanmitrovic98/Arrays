@@ -191,4 +191,9 @@ public class Array<T> : IArray<T>
             }
         }
     }
+
+    public void Clear()
+    {
+        throw new NotImplementedException();
+    }
 }
