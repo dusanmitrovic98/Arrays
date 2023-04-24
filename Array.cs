@@ -1,4 +1,6 @@
-﻿namespace DataStructures.Collections.Array;
+﻿using System.Collections;
+
+namespace DataStructures.Collections.Array;
 
 public class Array<T> : IArray<T>
 {
@@ -199,5 +201,10 @@ public class Array<T> : IArray<T>
     {
         int length = this.Length;
         this._elements = new T[length];
+    }
+
+    public IEnumerator GetEnumerator()
+    {
+        throw new NotImplementedException();
     }
 }
