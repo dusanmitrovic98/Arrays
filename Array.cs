@@ -214,6 +214,8 @@ public class Array<T> : IArray<T>
 
     public void Reverse()
     {
-        throw new NotImplementedException();
+        int length = this.Length;
+        int middle = length / 2;
+
     }
 }
