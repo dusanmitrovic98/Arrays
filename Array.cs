@@ -173,6 +173,10 @@ public class Array<T> : IArray<T>
         return -1;
     }
 
+    /// <summary>
+    /// Adds element to the first free slot in the array.
+    /// </summary>
+    /// <param name="value">Element to be added.</param>
     public void Add(T value)
     {
         throw new NotImplementedException();

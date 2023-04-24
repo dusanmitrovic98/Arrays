@@ -11,4 +11,5 @@ public interface IArray<T>
     public void CopyTo(ref Array<T> array, int index = default);
     public Array<T> Copy(int index = default);
     public int IndexOf(T value);
+    public void Add(T value);
 }
