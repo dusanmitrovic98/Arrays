@@ -181,5 +181,10 @@ public class Array<T> : IArray<T>
     {
         int length = this.Length;
         int index = 0;
+
+        while (index < length)
+        {
+
+        }
     }
 }
