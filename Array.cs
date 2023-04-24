@@ -212,6 +212,9 @@ public class Array<T> : IArray<T>
         return _elements.GetEnumerator();
     }
 
+    /// <summary>
+    /// Reverses the order of the elements in the array.
+    /// </summary>
     public void Reverse()
     {
         int length = this.Length;
