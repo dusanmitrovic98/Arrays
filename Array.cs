@@ -240,6 +240,9 @@ public class Array<T> : IArray<T>
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public void Sort()
     {
         if (this._elements == null || this.Length < 2)
