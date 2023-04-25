@@ -257,6 +257,7 @@ public class Array<T> : IArray<T>
 
                 if (result > 0)
                 {
+                    int temp = (int)array.GetValue(j);
 
                 }
             }
