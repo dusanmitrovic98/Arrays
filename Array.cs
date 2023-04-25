@@ -194,6 +194,11 @@ public class Array<T> : IArray<T>
         }
     }
 
+    public void Clear()
+    {
+
+    }
+
     /// <summary>
     /// Returns an enumerator that iterates through the array.
     /// </summary>
