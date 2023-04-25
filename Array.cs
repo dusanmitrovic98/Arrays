@@ -228,6 +228,10 @@ public class Array<T> : IArray<T>
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="value"></param>
     public void Fill(T value)
     {
         for (int i = 0; i < this.Length; i++)
