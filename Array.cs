@@ -231,7 +231,7 @@ public class Array<T> : IArray<T>
     /// <summary>
     /// Sets all the elements in the array to the specified value.
     /// </summary>
-    /// <param name="value"></param>
+    /// <param name="value">Each element of the array will be set to this value.</param>
     public void Fill(T value)
     {
         for (int i = 0; i < this.Length; i++)
