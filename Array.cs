@@ -229,7 +229,7 @@ public class Array<T> : IArray<T>
     }
 
     /// <summary>
-    /// 
+    /// Sets all the elements in the array to the specified value.
     /// </summary>
     /// <param name="value"></param>
     public void Fill(T value)
