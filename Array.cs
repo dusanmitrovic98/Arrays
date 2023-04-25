@@ -227,4 +227,9 @@ public class Array<T> : IArray<T>
             this.SetValue(temp, length - i - 1);
         }
     }
+
+    public void Fill(T value)
+    {
+        throw new NotImplementedException();
+    }
 }
