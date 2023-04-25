@@ -246,5 +246,10 @@ public class Array<T> : IArray<T>
         {
             return;
         }
+
+        for (int i = 0; i < array.Length - 1; i++)
+        {
+
+        }
     }
 }
