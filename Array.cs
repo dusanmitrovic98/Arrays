@@ -230,6 +230,6 @@ public class Array<T> : IArray<T>
 
     public void Fill(T value)
     {
-        throw new NotImplementedException();
+
     }
 }
