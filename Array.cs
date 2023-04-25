@@ -196,7 +196,8 @@ public class Array<T> : IArray<T>
 
     public void Clear()
     {
-
+        int length = this.Length;
+        this._elements = new T[length];
     }
 
     /// <summary>
