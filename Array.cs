@@ -232,7 +232,7 @@ public class Array<T> : IArray<T>
     {
         for (int i = 0; i < this.Length; i++)
         {
-
+            this.SetValue(value, i);
         }
     }
 }
