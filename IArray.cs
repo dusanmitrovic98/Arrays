@@ -17,4 +17,5 @@ public interface IArray<T>
     public void Clear();
     public IEnumerator GetEnumerator();
     public void Reverse();
+    public void Fill(T value);
 }
