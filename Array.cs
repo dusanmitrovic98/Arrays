@@ -242,6 +242,9 @@ public class Array<T> : IArray<T>
 
     public void Sort()
     {
-
+        if (this._elements == null || this.Length < 2)
+        {
+            return;
+        }
     }
 }
