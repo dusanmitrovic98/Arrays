@@ -247,9 +247,14 @@ public class Array<T> : IArray<T>
             return;
         }
 
-        for (int i = 0; i < this.Length - 1; i++)
-        {
+        var length = this.Length;
 
+        for (int i = 0; i < length - 1; i++)
+        {
+            for (int j = 0; j < length - i - 1; j++)
+            {
+
+            }
         }
     }
 }
