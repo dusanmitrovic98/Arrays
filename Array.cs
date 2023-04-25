@@ -195,15 +195,6 @@ public class Array<T> : IArray<T>
     }
 
     /// <summary>
-    /// Clears the array.
-    /// </summary>
-    public void Clear()
-    {
-        int length = this.Length;
-        this._elements = new T[length];
-    }
-
-    /// <summary>
     /// Returns an enumerator that iterates through the array.
     /// </summary>
     /// <returns>An enumerator that iterates through the array.</returns>

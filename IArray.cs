@@ -14,7 +14,7 @@ public interface IArray<T>
     public Array<T> Copy(int index = default);
     public int IndexOf(T value);
     public void Add(T value);
-    public void Clear();
+    // public void Clear();
     public IEnumerator GetEnumerator();
     public void Reverse();
 }
