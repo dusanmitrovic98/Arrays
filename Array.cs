@@ -230,6 +230,9 @@ public class Array<T> : IArray<T>
 
     public void Fill(T value)
     {
+        for (int i = 0; i < this.Length; i++)
+        {
 
+        }
     }
 }
