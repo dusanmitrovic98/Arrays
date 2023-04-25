@@ -239,4 +239,9 @@ public class Array<T> : IArray<T>
             this.SetValue(value, i);
         }
     }
+
+    public void Sort()
+    {
+
+    }
 }
