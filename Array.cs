@@ -243,7 +243,7 @@ public class Array<T> : IArray<T>
     /// <summary>
     /// Sorts the elements in the array.
     /// </summary>
-    public void Sort(bool orderAscending = true)
+    public void Sort()
     {
         if (this._elements == null || this.Length < 2)
         {
@@ -258,13 +258,7 @@ public class Array<T> : IArray<T>
             {
                 int result = Comparer<T>.Default.Compare(this.GetValue(j), this.GetValue(j + 1));
 
-                if (result > 0 && orderAscending)
-                {
-                    T temp = (T)this.GetValue(j);
-                    this.SetValue(this.GetValue(j + 1), j);
-                    this.SetValue(temp, j + 1);
-                }
-                else if (result < 0 && orderAscending == false)
+                if (result > 0)
                 {
                     T temp = (T)this.GetValue(j);
                     this.SetValue(this.GetValue(j + 1), j);
