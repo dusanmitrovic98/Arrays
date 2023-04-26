@@ -7,5 +7,7 @@ namespace DataStructures.Collections.Array
         Ascending = 0,
 
         NonStrictlyAscending = 1,
+
+        Descending = 2,
     }
 }
