@@ -260,7 +260,7 @@ public class Array<T> : IArray<T>
 
                 if (result > 0)
                 {
-
+                    T temp = (T)this.GetValue(j);
                 }
             }
         }
