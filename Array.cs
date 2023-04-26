@@ -249,5 +249,7 @@ public class Array<T> : IArray<T>
         {
             return;
         }
+
+        var length = this.Length;
     }
 }
