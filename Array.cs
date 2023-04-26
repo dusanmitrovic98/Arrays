@@ -243,7 +243,7 @@ public class Array<T> : IArray<T>
     /// <summary>
     /// Sorts the elements in the array.
     /// </summary>
-    public void Sort(bool orderAscending = true)
+    public void Sort()
     {
         if (this._elements == null || this.Length < 2)
         {
