@@ -1,6 +1,6 @@
 using System;
 
-namespace Arrays
+namespace DataStructures.Collections.Array
 {
     public enum SortingOrder
     {
