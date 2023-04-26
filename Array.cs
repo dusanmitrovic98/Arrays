@@ -239,32 +239,4 @@ public class Array<T> : IArray<T>
             this.SetValue(value, i);
         }
     }
-
-    /// <summary>
-    /// Sorts the elements in the array.
-    /// </summary>
-    public void Sort()
-    {
-        if (this._elements == null || this.Length < 2)
-        {
-            return;
-        }
-
-        var length = this.Length;
-
-        for (int i = 0; i < length - 1; i++)
-        {
-            for (int j = 0; j < length - i - 1; j++)
-            {
-                int result = Comparer<T>.Default.Compare(this.GetValue(j), this.GetValue(j + 1));
-
-                if (result > 0)
-                {
-                    T temp = (T)this.GetValue(j);
-                    this.SetValue(this.GetValue(j + 1), j);
-                    this.SetValue(temp, j + 1);
-                }
-            }
-        }
-    }
 }
