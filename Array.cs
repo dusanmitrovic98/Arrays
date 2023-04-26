@@ -257,6 +257,11 @@ public class Array<T> : IArray<T>
             for (int j = 0; j < length - i - 1; j++)
             {
                 int result = Comparer<T>.Default.Compare(this.GetValue(j), this.GetValue(j + 1));
+
+                if (result > 0)
+                {
+
+                }
             }
         }
     }
