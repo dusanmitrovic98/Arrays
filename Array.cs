@@ -251,5 +251,10 @@ public class Array<T> : IArray<T>
         }
 
         var length = this.Length;
+
+        for (int i = 0; i < length - 1; i++)
+        {
+
+        }
     }
 }
