@@ -240,7 +240,10 @@ public class Array<T> : IArray<T>
         }
     }
 
-    public void Sort()
+    /// <summary>
+    /// Sorts the elements in the array.
+    /// </summary>
+    public void Sort(bool orderAscending = true)
     {
 
     }
