@@ -5,5 +5,7 @@ namespace DataStructures.Collections.Array
     public enum SortingOrder
     {
         Ascending = 0,
+
+        NonStrictlyAscending = 1,
     }
 }
