@@ -13,5 +13,11 @@ public interface IArray<T>
     public void CopyTo(ref Array<T> array, int index = default);
     public Array<T> Copy(int index = default);
     public int IndexOf(T value);
+    public void Add(T value);
+    public void Clear();
+    public IEnumerator GetEnumerator();
+    public void Reverse();
+    public void Fill(T value);
+    public void Sort();
     public void Traverse(Action? action);
 }
