@@ -262,6 +262,7 @@ public class Array<T> : IArray<T>
                 {
                     T temp = (T)this.GetValue(j);
                     this.SetValue(this.GetValue(j + 1), j);
+                    this.SetValue(temp, j + 1);
                 }
             }
         }
