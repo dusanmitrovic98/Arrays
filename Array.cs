@@ -261,6 +261,7 @@ public class Array<T> : IArray<T>
                 if (result > 0)
                 {
                     T temp = (T)this.GetValue(j);
+                    this.SetValue(this.GetValue(j + 1), j);
                 }
             }
         }
