@@ -258,7 +258,10 @@ public class Array<T> : IArray<T>
             {
                 int result = Comparer<T>.Default.Compare(this.GetValue(j), this.GetValue(j + 1));
 
-
+                if (result > 0)
+                {
+                    T temp = (T)this.GetValue(j);
+                }
             }
         }
     }
