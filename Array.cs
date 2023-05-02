@@ -250,6 +250,8 @@ public class Array<T> : IArray<T>
             return;
         }
 
+        var length = this.Length;
+
     }
 
     public void Traverse(Action? action) // todo implement
