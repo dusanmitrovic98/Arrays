@@ -222,7 +222,7 @@ public class Array<T> : IArray<T>
 
         for (int i = 0; i < middle; i++)
         {
-
+            T temp = this.GetValue(i);
         }
     }
 
