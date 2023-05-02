@@ -188,7 +188,7 @@ public class Array<T> : IArray<T>
         {
             if (this[index] == null)
             {
-
+                this[index] = value;
             }
         }
     }
