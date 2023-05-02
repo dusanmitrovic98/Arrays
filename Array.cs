@@ -217,15 +217,7 @@ public class Array<T> : IArray<T>
     /// </summary>
     public void Reverse()
     {
-        int length = this.Length;
-        int middle = length / 2;
 
-        for (int i = 0; i < middle; i++)
-        {
-            T temp = this.GetValue(i);
-            this.SetValue(this.GetValue(length - i - 1), i);
-            this.SetValue(temp, length - i - 1);
-        }
     }
 
     /// <summary>
