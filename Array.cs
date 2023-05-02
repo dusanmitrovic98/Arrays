@@ -268,7 +268,7 @@ public class Array<T> : IArray<T>
         }
     }
 
-    public void Traverse(Action? action)
+    public void Traverse(Action? action) // todo implement
     {
         throw new NotImplementedException();
     }
