@@ -220,6 +220,10 @@ public class Array<T> : IArray<T>
         int length = this.Length;
         int middle = length / 2;
 
+        for (int i = 0; i < middle; i++)
+        {
+
+        }
     }
 
     /// <summary>
