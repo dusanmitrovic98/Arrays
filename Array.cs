@@ -217,6 +217,7 @@ public class Array<T> : IArray<T>
     /// </summary>
     public void Reverse()
     {
+        int length = this.Length;
 
     }
 
