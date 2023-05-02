@@ -223,6 +223,7 @@ public class Array<T> : IArray<T>
         for (int i = 0; i < middle; i++)
         {
             T temp = this.GetValue(i);
+            this.SetValue(this.GetValue(length - i - 1), i);
         }
     }
 
