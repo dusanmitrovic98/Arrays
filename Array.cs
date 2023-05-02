@@ -218,6 +218,7 @@ public class Array<T> : IArray<T>
     public void Reverse()
     {
         int length = this.Length;
+        int middle = length / 2;
 
     }
 
