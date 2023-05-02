@@ -186,7 +186,10 @@ public class Array<T> : IArray<T>
 
         while (index < length)
         {
+            if (this[index] == null)
+            {
 
+            }
         }
     }
 
