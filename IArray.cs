@@ -19,4 +19,5 @@ public interface IArray<T>
     public void Reverse();
     public void Fill(T value);
     public void Sort();
+    public void Traverse(Action? action);
 }
