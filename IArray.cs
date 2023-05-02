@@ -10,4 +10,5 @@ public interface IArray<T>
     public void SetValue(T value, int index);
     public T GetValue(int index);
     public void ValidateIndex(int index);
+    public void CopyTo(ref Array<T> array, int index = default);
 }
