@@ -12,4 +12,6 @@ public interface IArray<T>
     public void ValidateIndex(int index);
     public void CopyTo(ref Array<T> array, int index = default);
     public Array<T> Copy(int index = default);
+    public int IndexOf(T value);
+    public void Traverse(Action? action);
 }
