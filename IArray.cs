@@ -9,4 +9,5 @@ public interface IArray<T>
     public bool Contains(T value);
     public void SetValue(T value, int index);
     public T GetValue(int index);
+    public void ValidateIndex(int index);
 }
