@@ -181,17 +181,7 @@ public class Array<T> : IArray<T>
     /// <param name="value">Element to be added.</param>
     public void Add(T value)
     {
-        int length = this.Length;
-        int index = 0;
 
-        while (index < length)
-        {
-            if (this[index] == null)
-            {
-                this[index] = value;
-                break;
-            }
-        }
     }
 
     /// <summary>
