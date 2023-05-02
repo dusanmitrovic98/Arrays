@@ -267,4 +267,9 @@ public class Array<T> : IArray<T>
             }
         }
     }
+
+    public void Traverse(Action? action)
+    {
+        throw new NotImplementedException();
+    }
 }
