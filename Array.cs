@@ -224,6 +224,7 @@ public class Array<T> : IArray<T>
         {
             T temp = this.GetValue(i);
             this.SetValue(this.GetValue(length - i - 1), i);
+            this.SetValue(temp, length - i - 1);
         }
     }
 
